@@ -1,0 +1,20 @@
+import { useState } from "react";
+
+function Dropdown() {
+  const [selected, setSelected] = useState("");
+
+  return (
+    <div>
+      <h2>Selected: {selected}</h2>
+
+      <select onChange={(e) => setSelected(e.target.value)} value={selected}>
+        <option value="">--Select an option--</option>
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </select>
+    </div>
+  );
+}
+
+export default Dropdown;

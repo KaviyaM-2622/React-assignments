@@ -9,7 +9,16 @@ import SimpleButton from "./Day 42/Task7";
 import ProductItem from "./Day 42/Task8";
 import Layout from "./Day 42/Task9";
 import Header from "./Day 42/Task10";
-
+import Counter from "./Day 43/Task1";
+import InputBox from "./Day 43/Task2";
+import Toggle from "./Day 43/Task3";
+import EvenOdd from "./Day 43/Task4";
+import ColorChange from "./Day 43/Task5";
+import LoginForm from "./Day 43/Task6";
+import ThemeSwitcher from "./Day 43/Task7";
+import CounterReset from "./Day 43/Task8";
+import Dropdown from "./Day 43/Task9";
+import TodoApp from "./Day 43/Task10";
 
 
 function SimpleCheckbox() {
@@ -48,11 +57,23 @@ function SimpleCheckbox() {
   
           <main style={{ padding: "20px", textAlign: "center" }}>
           <h2>Welcome all!</h2>
-          </main>
-  
-  
-  
-  
+          </main>  
+          
+          <Counter />
+          <InputBox/>
+          <Toggle/>
+          <EvenOdd/>
+          <ColorChange/>
+          <LoginForm/>
+          <ThemeSwitcher />
+          <CounterReset/>
+          <Dropdown/>
+          <TodoApp/>
+
+
+
+
+
   </>
 
   );
