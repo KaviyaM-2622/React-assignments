@@ -19,6 +19,16 @@ import ThemeSwitcher from "./Day 43/Task7";
 import CounterReset from "./Day 43/Task8";
 import Dropdown from "./Day 43/Task9";
 import TodoApp from "./Day 43/Task10";
+import LoginStatus from "./Day 44/Task1";
+import Premium from "./Day 44/Task2";
+import CityList from "./Day 44/Task3";
+import City from "./Day 44/Task4";
+import Data from "./Day 44/Task5";
+import TodoList from "./Day 44/Task6";
+import Todo from "./Day 44/Task7";
+import UserList from "./Day 44/Task8";
+import NotificationBadge from "./Day 44/Task9";
+import StudentAttendance from "./Day 44/Task10";
 
 
 function SimpleCheckbox() {
@@ -69,6 +79,16 @@ function SimpleCheckbox() {
           <CounterReset/>
           <Dropdown/>
           <TodoApp/>
+          <LoginStatus/>
+          <Premium/>
+          <CityList/>
+          <City/>
+          <Data/>
+          <TodoList/>
+          <Todo/>
+          <UserList/>
+          <NotificationBadge/>
+          <StudentAttendance/>
 
 
 
