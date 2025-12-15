@@ -29,6 +29,16 @@ import Todo from "./Day 44/Task7";
 import UserList from "./Day 44/Task8";
 import NotificationBadge from "./Day 44/Task9";
 import StudentAttendance from "./Day 44/Task10";
+import Greeting from "./Day 45/Task1";
+import Uppercase from "./Day 45/Task2";
+import Checkbox from "./Day 45/Task3";
+import Country from "./Day 45/Task4";
+import Password from "./Day 45/Task5";
+import Login from "./Day 45/Task6";
+import RegistrationForm from "./Day 45/Task7";
+import ProfileUpdateForm from "./Day 45/Task8";
+import ValidatedForm from "./Day 45/Task9";
+import FeedbackForm from "./Day 45/Task10";
 
 
 function SimpleCheckbox() {
@@ -89,6 +99,16 @@ function SimpleCheckbox() {
           <UserList/>
           <NotificationBadge/>
           <StudentAttendance/>
+          <Greeting/>
+          <Uppercase/>
+          <Checkbox/>
+          <Country/>
+          <Password/>
+          <Login/>
+          <RegistrationForm/>
+          <ProfileUpdateForm/>
+          <ValidatedForm/>
+          <FeedbackForm/>
 
 
 
