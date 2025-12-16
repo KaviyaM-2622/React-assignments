@@ -1,0 +1,17 @@
+import React, { useState, useEffect } from "react";
+
+export default function Document() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = count;
+  }, [count]);
+
+  return (
+    <div>
+      <h1>Count: {count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button onClick={() => setCount(count - 1)}>Decrease</button>
+    </div>
+  );
+}

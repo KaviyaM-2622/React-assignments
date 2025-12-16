@@ -39,6 +39,19 @@ import RegistrationForm from "./Day 45/Task7";
 import ProfileUpdateForm from "./Day 45/Task8";
 import ValidatedForm from "./Day 45/Task9";
 import FeedbackForm from "./Day 45/Task10";
+import Rendered from "./Day 46/Task1";
+import ComponentLoaded from "./Day 46/Task2";
+import Counter1 from "./Day 46/Task3";
+import InputChange from "./Day 46/Task4";
+import Document from "./Day 46/Task5";
+import LiveClock from "./Day 46/Task6";
+import GitHubUser from "./Day 46/Task7";
+import Search from "./Day 46/Task8";
+import CharacterCount from "./Day 46/Task9";
+import ThemeSwitcher1 from "./Day 46/Task10";
+import "./Style.css"; 
+
+
 
 
 function SimpleCheckbox() {
@@ -109,6 +122,17 @@ function SimpleCheckbox() {
           <ProfileUpdateForm/>
           <ValidatedForm/>
           <FeedbackForm/>
+          <Rendered/>
+          <ComponentLoaded/>
+          <Counter1/>
+          <InputChange/>
+          <Document/>
+          <LiveClock/>
+          <GitHubUser/>
+          <Search/>
+          <CharacterCount/>
+          <ThemeSwitcher1/>
+      
 
 
 
